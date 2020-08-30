@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+section{
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    font: small sans-serif;
+    text-align: center;
+    color: silver;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+#book-title{
+    height: 5em;
+}
+
+#synopsis{
+    height: 30em;
+}
+
+#purchase{
+    height: 20em;
+}
+
+#resources{
+    height: 50em;
+}
+
+#errata{
+    height: 40em;
+}
+
+.menu{
+    position: absolute;
+    margin: 15px;
+    top: 0;
+    right: 0;
+    background-color: gainsboro;
+    padding: 0.5em;
+    color: steelblue;
+}
+
+nav{
+    height: 10em;
+}
