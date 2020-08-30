@@ -1,0 +1,70 @@
+html, body{
+    font-family: Heebo;
+}
+body{
+    background-color: #333;
+    /* font-family: sans-serif; */
+}
+
+section{
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    /* font: small sans-serif; */
+    text-align: center;
+    color: #333;
+}
+
+h1{
+    font-weight: bold;
+}
+
+#book-title{
+    height: 5em;
+}
+
+#synopsis{
+    height: 30em;
+}
+
+#purchase{
+    height: 20em;
+}
+
+#resources{
+    height: 50em;
+}
+
+#errata{
+    height: 40em;
+}
+
+.menu{
+    position: absolute;
+    margin: 15px;
+    top: 0;
+    right: 0;
+    background-color: gainsboro;
+    padding: 0.5em;
+    color: steelblue;
+}
+
+nav{
+    height: 10em;
+}
+
+ul#nav{
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul#nav li{
+    padding: 16px;
+    /* list-style-type: none; */
+    border-bottom: 1px solid white;
+    display: block;
+}
+
+ul#nav a{
+    color: #fff;
+}

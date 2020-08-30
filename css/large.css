@@ -1,0 +1,41 @@
+
+section{
+    border: 4px solid #333;
+}
+
+/* nav > h1{
+    float: left;
+} */
+#page{
+    position: relative;
+    width: 90%;
+    /* margin: 0 auto; */
+}
+nav{
+    width: inherit;
+}
+
+#synopsis{
+    float: left;
+    width: 60%;
+    margin-top: 0;
+}
+
+#purchase{
+    float: right;
+    width: 40%;
+    height: 30em;
+    margin-top: 0;
+}
+
+#purchase+section{
+    clear: both;
+}
+/* ! Box Sizing */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
